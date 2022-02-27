@@ -12,15 +12,14 @@ public class PieceWorker extends Employee {
 	public PieceWorker(String firstName, String lastName, double wage, int numberOfItems) {
 		super(firstName, lastName);
 		
-//		this.wage  = wage;
-//		this.numberOfItems = numberOfItems;
+
 		
 		this.wage  = earning.pieceWorker(wage, numberOfItems);
 	 
 	}
 
 	public double getWage() {
-		return wage /* numberOfItems*/;
+		return wage ;
 	}
 
 	public int getNumberOfItems() {

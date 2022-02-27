@@ -13,14 +13,14 @@ public class HourlyWorker extends Employee {
 		super(firstName, lastName);
 
 		this.wagePerHour = earning.hourlyWorker(wagePerHour, hoursWorked);
-		/* this.hoursWorked = earning.earningBoss(hoursWorked); */
+	
 		
 		
 	}
 
 	
   public double getWagePerHour() {
-		return wagePerHour/* * hoursWorked */;
+		return wagePerHour;
 	}
 
 

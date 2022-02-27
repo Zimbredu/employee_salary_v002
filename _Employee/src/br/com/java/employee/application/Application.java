@@ -79,8 +79,7 @@ public class Application {
 		//Referência Employee para um HourlyWorker..
 		employee = hourlyWorker;
 							
-		output += /* employee.toString() + " earned $ " + */
-				/* precision2.format(employee.earnings()) + "\n" + */
+		output += 
 		     hourlyWorker.toString() + " earned $ "	+
 
              precision2.format(hourlyWorker.getWagePerHour()) + "\n";

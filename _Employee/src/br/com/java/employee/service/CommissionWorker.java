@@ -13,8 +13,7 @@ public class CommissionWorker extends Employee {
 	public CommissionWorker(String firstName, String lastName, double salary, double commission, int quantity) {
 		super(firstName, lastName);		
 		this.salary = salary;
-//		this.commission = commission;
-//		this.quantity = quantity;	
+
 		this.salary = earning.commissionWorker(salary, commission,quantity);
 		
 		
@@ -22,7 +21,7 @@ public class CommissionWorker extends Employee {
 
 	public double getSalary() {
 		
-		return salary /* + (commission * quantity) */; 
+		return salary ; 
 	}
 
 	public double getCommission() {
