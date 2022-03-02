@@ -10,7 +10,7 @@
 .</h3></p>
  <p></p>
  
--  ##### Em relação a implementação **[employee_salary](https://github.com/Zimbre/employee.salary)**, foram realizadas alterações nas regras de negócio para seguir os princípios do ***SOLID***.
+-  ##### Em relação a implementação **[employee_salary](https://github.com/Zimbredu/employee_salary)**, foram realizadas alterações nas regras de negócio para seguir os princípios do ***SOLID***.
 
 
 >    Extraído do livro ***Java como programar 4ª edição***, páginas 459 a 464
